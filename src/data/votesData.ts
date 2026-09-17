@@ -1,0 +1,217 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { RollCallVote } from '../types';
+
+export const rollCallVotesData: RollCallVote[] = [
+  {
+    id: 'vot-2023-01',
+    codigo: 'PL 412/2023',
+    titulo: 'Passe Livre Estudantil - Expansão e Modernização',
+    ementa: 'Altera a legislação do Sistema de Transporte Público Coletivo do DF para garantir a ampliação de linhas e integração tarifária do passe livre estudantil.',
+    data: '18/04/2023',
+    ano: '2023',
+    categoria: 'Transporte & Mobilidade',
+    classificacaoOficial: 'Transporte e Mobilidade Urbana',
+    tags: ['Passe Livre', 'Estudantes', 'Transporte', 'Metrô-DF', 'Ônibus'],
+    resultado: 'Aprovado',
+    votosSim: 21,
+    votosNao: 1,
+    abstencoes: 1,
+    ausencias: 1,
+    votos: {
+      'chico-vigilante': 'SIM', 'dayse-amarilio': 'SIM', 'eduardo-pedrosa': 'SIM',
+      'fabio-felix': 'SIM', 'gabriel-magno': 'SIM', 'hermeto': 'SIM',
+      'iolando': 'SIM', 'jaqueline-silva': 'SIM', 'jane-klebia': 'SIM',
+      'joaquim-roriz-neto': 'SIM', 'jorge-vianna': 'SIM', 'martins-machado': 'SIM',
+      'max-maciel': 'SIM', 'pastor-daniel-castro': 'SIM', 'paula-belmonte': 'SIM',
+      'pepa': 'SIM', 'ricardo-vale': 'SIM', 'roberio-negreiros': 'SIM',
+      'rogerio-morro-da-cruz': 'SIM', 'roosevelt-vilela': 'SIM', 'thiago-manzoni': 'NÃO',
+      'wellington-luiz': 'ABSTENÇÃO', 'daniel-donizet': 'SIM', 'joao-cardoso': 'AUSENTE'
+    }
+  },
+  {
+    id: 'vot-2023-02',
+    codigo: 'PL 789/2023',
+    titulo: 'Lei de Diretrizes Orçamentárias (LDO 2024)',
+    ementa: 'Dispõe sobre as diretrizes gerais para a elaboração e execução da Lei Orçamentária Anual do Distrito Federal para o exercício financeiro de 2024.',
+    data: '27/06/2023',
+    ano: '2023',
+    categoria: 'Orçamento & Tributação',
+    classificacaoOficial: 'Orçamento e Finanças Públicas',
+    tags: ['LDO', 'Orçamento', 'Finanças', 'LOA', 'Emendas'],
+    resultado: 'Aprovado',
+    votosSim: 18,
+    votosNao: 4,
+    abstencoes: 1,
+    ausencias: 1,
+    votos: {
+      'chico-vigilante': 'NÃO', 'dayse-amarilio': 'SIM', 'eduardo-pedrosa': 'SIM',
+      'fabio-felix': 'NÃO', 'gabriel-magno': 'NÃO', 'hermeto': 'SIM',
+      'iolando': 'SIM', 'jaqueline-silva': 'SIM', 'jane-klebia': 'SIM',
+      'joaquim-roriz-neto': 'SIM', 'jorge-vianna': 'SIM', 'martins-machado': 'SIM',
+      'max-maciel': 'NÃO', 'pastor-daniel-castro': 'SIM', 'paula-belmonte': 'ABSTENÇÃO',
+      'pepa': 'SIM', 'ricardo-vale': 'SIM', 'roberio-negreiros': 'SIM',
+      'rogerio-morro-da-cruz': 'SIM', 'roosevelt-vilela': 'SIM', 'thiago-manzoni': 'SIM',
+      'wellington-luiz': 'SIM', 'daniel-donizet': 'SIM', 'joao-cardoso': 'SIM'
+    }
+  },
+  {
+    id: 'vot-2023-03',
+    codigo: 'PL 931/2023',
+    titulo: 'Plano de Carreira e Gratificações da Saúde Pública',
+    ementa: 'Reestrutura tabelas remuneratórias dos servidores da saúde do DF e institui incentivo por lotação em Unidades Básicas de Saúde periféricas.',
+    data: '05/12/2023',
+    ano: '2023',
+    categoria: 'Saúde & Social',
+    classificacaoOficial: 'Saúde Pública',
+    tags: ['Saúde', 'Servidores da Saúde', 'UBS', 'Enfermagem', 'Médicos', 'SUS-DF'],
+    resultado: 'Aprovado',
+    votosSim: 23,
+    votosNao: 0,
+    abstencoes: 0,
+    ausencias: 1,
+    votos: {
+      'chico-vigilante': 'SIM', 'dayse-amarilio': 'SIM', 'eduardo-pedrosa': 'SIM',
+      'fabio-felix': 'SIM', 'gabriel-magno': 'SIM', 'hermeto': 'SIM',
+      'iolando': 'SIM', 'jaqueline-silva': 'SIM', 'jane-klebia': 'SIM',
+      'joaquim-roriz-neto': 'SIM', 'jorge-vianna': 'SIM', 'martins-machado': 'SIM',
+      'max-maciel': 'SIM', 'pastor-daniel-castro': 'SIM', 'paula-belmonte': 'SIM',
+      'pepa': 'SIM', 'ricardo-vale': 'SIM', 'roberio-negreiros': 'SIM',
+      'rogerio-morro-da-cruz': 'SIM', 'roosevelt-vilela': 'SIM', 'thiago-manzoni': 'SIM',
+      'wellington-luiz': 'SIM', 'daniel-donizet': 'SIM', 'joao-cardoso': 'AUSENTE'
+    }
+  },
+  {
+    id: 'vot-2024-01',
+    codigo: 'PLC 34/2024',
+    titulo: 'Revisão do PDOT e Regularização Fundiária Urbana',
+    ementa: 'Estabelece diretrizes complementares para parcelamento do solo e regularização de núcleos urbanos consolidados no Distrito Federal.',
+    data: '21/05/2024',
+    ano: '2024',
+    categoria: 'Urbanismo & PDOT',
+    classificacaoOficial: 'Urbanismo e Regularização Fundiária',
+    tags: ['PDOT', 'Regularização Fundiária', 'Terracap', 'Urbanismo', 'Solo Urbano'],
+    resultado: 'Aprovado',
+    votosSim: 17,
+    votosNao: 5,
+    abstencoes: 1,
+    ausencias: 1,
+    votos: {
+      'chico-vigilante': 'NÃO', 'dayse-amarilio': 'SIM', 'eduardo-pedrosa': 'SIM',
+      'fabio-felix': 'NÃO', 'gabriel-magno': 'NÃO', 'hermeto': 'SIM',
+      'iolando': 'SIM', 'jaqueline-silva': 'SIM', 'jane-klebia': 'SIM',
+      'joaquim-roriz-neto': 'SIM', 'jorge-vianna': 'SIM', 'martins-machado': 'SIM',
+      'max-maciel': 'NÃO', 'pastor-daniel-castro': 'SIM', 'paula-belmonte': 'NÃO',
+      'pepa': 'SIM', 'ricardo-vale': 'ABSTENÇÃO', 'roberio-negreiros': 'SIM',
+      'rogerio-morro-da-cruz': 'SIM', 'roosevelt-vilela': 'SIM', 'thiago-manzoni': 'SIM',
+      'wellington-luiz': 'SIM', 'daniel-donizet': 'SIM', 'joao-cardoso': 'AUSENTE'
+    }
+  },
+  {
+    id: 'vot-2024-02',
+    codigo: 'PL 1105/2024',
+    titulo: 'Programa de Eficiência Energética e Iluminação Pública em LED',
+    ementa: 'Autoriza destinação de contrapartidas da CEB e parcerias para universalização de iluminação em LED e usinas solares em prédios públicos.',
+    data: '17/09/2024',
+    ano: '2024',
+    categoria: 'Urbanismo & PDOT',
+    classificacaoOficial: 'Urbanismo e Obras Públicas',
+    tags: ['Iluminação LED', 'Energia Solar', 'CEB', 'Sustentabilidade', 'Urbanismo'],
+    resultado: 'Aprovado',
+    votosSim: 22,
+    votosNao: 0,
+    abstencoes: 1,
+    ausencias: 1,
+    votos: {
+      'chico-vigilante': 'SIM', 'dayse-amarilio': 'SIM', 'eduardo-pedrosa': 'SIM',
+      'fabio-felix': 'SIM', 'gabriel-magno': 'SIM', 'hermeto': 'SIM',
+      'iolando': 'SIM', 'jaqueline-silva': 'SIM', 'jane-klebia': 'SIM',
+      'joaquim-roriz-neto': 'SIM', 'jorge-vianna': 'SIM', 'martins-machado': 'SIM',
+      'max-maciel': 'SIM', 'pastor-daniel-castro': 'SIM', 'paula-belmonte': 'SIM',
+      'pepa': 'SIM', 'ricardo-vale': 'SIM', 'roberio-negreiros': 'SIM',
+      'rogerio-morro-da-cruz': 'SIM', 'roosevelt-vilela': 'SIM', 'thiago-manzoni': 'ABSTENÇÃO',
+      'wellington-luiz': 'SIM', 'daniel-donizet': 'SIM', 'joao-cardoso': 'SIM'
+    }
+  },
+  {
+    id: 'vot-2024-03',
+    codigo: 'PL 1240/2024',
+    titulo: 'Lei Orçamentária Anual (LOA 2025)',
+    ementa: 'Estima a receita e fixa a despesa do Distrito Federal para o exercício de 2025, definindo cotas de emendas impositivas distritais.',
+    data: '12/12/2024',
+    ano: '2024',
+    categoria: 'Orçamento & Tributação',
+    classificacaoOficial: 'Orçamento e Finanças Públicas',
+    tags: ['LOA 2025', 'Orçamento', 'Emendas Impositivas', 'GDF', 'Receitas'],
+    resultado: 'Aprovado',
+    votosSim: 19,
+    votosNao: 3,
+    abstencoes: 1,
+    ausencias: 1,
+    votos: {
+      'chico-vigilante': 'SIM', 'dayse-amarilio': 'SIM', 'eduardo-pedrosa': 'SIM',
+      'fabio-felix': 'NÃO', 'gabriel-magno': 'NÃO', 'hermeto': 'SIM',
+      'iolando': 'SIM', 'jaqueline-silva': 'SIM', 'jane-klebia': 'SIM',
+      'joaquim-roriz-neto': 'SIM', 'jorge-vianna': 'SIM', 'martins-machado': 'SIM',
+      'max-maciel': 'NÃO', 'pastor-daniel-castro': 'SIM', 'paula-belmonte': 'ABSTENÇÃO',
+      'pepa': 'SIM', 'ricardo-vale': 'SIM', 'roberio-negreiros': 'SIM',
+      'rogerio-morro-da-cruz': 'SIM', 'roosevelt-vilela': 'SIM', 'thiago-manzoni': 'SIM',
+      'wellington-luiz': 'SIM', 'daniel-donizet': 'SIM', 'joao-cardoso': 'SIM'
+    }
+  },
+  {
+    id: 'vot-2024-04',
+    codigo: 'PL 215/2024',
+    titulo: 'Redução de Filas Cirúrgicas e Credenciamento no SUS-DF',
+    ementa: 'Estabelece força-tarefa emergencial para cirurgias eletivas, mutirões de exames de média e alta complexidade e credenciamento de leitos complementares nos Hospitais Regionais (HRC, HRAN, HRS, HRP).',
+    data: '29/10/2024',
+    ano: '2024',
+    categoria: 'Saúde & Social',
+    classificacaoOficial: 'Saúde Pública',
+    tags: ['Saúde', 'Filas do SUS', 'Cirurgias', 'HRC', 'Hospitais', 'SES-DF', '10 - Saúde'],
+    resultado: 'Aprovado',
+    votosSim: 24,
+    votosNao: 0,
+    abstencoes: 0,
+    ausencias: 0,
+    votos: {
+      'chico-vigilante': 'SIM', 'dayse-amarilio': 'SIM', 'eduardo-pedrosa': 'SIM',
+      'fabio-felix': 'SIM', 'gabriel-magno': 'SIM', 'hermeto': 'SIM',
+      'iolando': 'SIM', 'jaqueline-silva': 'SIM', 'jane-klebia': 'SIM',
+      'joaquim-roriz-neto': 'SIM', 'jorge-vianna': 'SIM', 'martins-machado': 'SIM',
+      'max-maciel': 'SIM', 'pastor-daniel-castro': 'SIM', 'paula-belmonte': 'SIM',
+      'pepa': 'SIM', 'ricardo-vale': 'SIM', 'roberio-negreiros': 'SIM',
+      'rogerio-morro-da-cruz': 'SIM', 'roosevelt-vilela': 'SIM', 'thiago-manzoni': 'SIM',
+      'wellington-luiz': 'SIM', 'daniel-donizet': 'SIM', 'joao-cardoso': 'SIM'
+    }
+  },
+  {
+    id: 'vot-2025-01',
+    codigo: 'PL 145/2025',
+    titulo: 'Fundo Distrital de Segurança nas Escolas e Apoio Psicossocial',
+    ementa: 'Cria mecanismos de integração comunitária, videomonitoramento inteligente e equipes multidisciplinares permanentes na rede pública de ensino.',
+    data: '18/03/2025',
+    ano: '2025',
+    categoria: 'Educação',
+    classificacaoOficial: 'Educação Básica e Pedagógica',
+    tags: ['Segurança Escolar', 'SEEDF', 'Psicossocial', 'Escolas', 'Educação'],
+    resultado: 'Aprovado',
+    votosSim: 23,
+    votosNao: 0,
+    abstencoes: 0,
+    ausencias: 1,
+    votos: {
+      'chico-vigilante': 'SIM', 'dayse-amarilio': 'SIM', 'eduardo-pedrosa': 'SIM',
+      'fabio-felix': 'SIM', 'gabriel-magno': 'SIM', 'hermeto': 'SIM',
+      'iolando': 'SIM', 'jaqueline-silva': 'SIM', 'jane-klebia': 'SIM',
+      'joaquim-roriz-neto': 'SIM', 'jorge-vianna': 'SIM', 'martins-machado': 'SIM',
+      'max-maciel': 'SIM', 'pastor-daniel-castro': 'SIM', 'paula-belmonte': 'SIM',
+      'pepa': 'SIM', 'ricardo-vale': 'SIM', 'roberio-negreiros': 'SIM',
+      'rogerio-morro-da-cruz': 'SIM', 'roosevelt-vilela': 'SIM', 'thiago-manzoni': 'SIM',
+      'wellington-luiz': 'SIM', 'daniel-donizet': 'SIM', 'joao-cardoso': 'AUSENTE'
+    }
+  }
+];

@@ -1,0 +1,6 @@
+{
+  "name": "Painel de Atuação Parlamentar - CLDF",
+  "description": "Monitor de transparência e dados abertos da Câmara Legislativa do Distrito Federal (9ª Legislatura): proposições, emendas, presença e votações ano a ano.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
